@@ -1,0 +1,4 @@
+Program.cs
+*.userprefs
+obj/
+bin/
