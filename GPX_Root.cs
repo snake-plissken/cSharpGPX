@@ -20,7 +20,7 @@ namespace cSharpGPX
 		public string ReturnXMLOutput()
 		{
 			string track_data = this.Track.ToXMLstring();
-			string gpx = "<gpx version\"1.0\">{0}</gpx>";
+			string gpx = "<gpx version=\"1.0\">{0}</gpx>";
 			return String.Format(gpx, track_data);
 		}
 	}
